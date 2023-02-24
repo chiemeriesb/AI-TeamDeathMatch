@@ -24440,3 +24440,492 @@ AIController1
 [2023.02.23-22.14.00:892][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
 [2023.02.23-22.14.17:187][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
 [2023.02.23-22.17.15:301][432]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:46.702 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.23-22.20.21:117][989]LogSlate: Window 'Death' being destroyed
+[2023.02.23-22.20.21:122][989]LogSlate: Window 'Death' being destroyed
+[2023.02.23-22.20.21:193][989]LogWorld: UWorld::CleanupWorld for World_124, bSessionEnded=true, bCleanupResources=true
+[2023.02.23-22.20.21:193][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.23-22.20.21:229][989]LogWorld: UWorld::CleanupWorld for World_120, bSessionEnded=true, bCleanupResources=true
+[2023.02.23-22.20.21:229][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.23-22.20.21:512][989]LogWorld: UWorld::CleanupWorld for World_121, bSessionEnded=true, bCleanupResources=true
+[2023.02.23-22.20.21:512][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.23-22.26.29:002][610]BlueprintLog: New page: Compile BP_AIController
+[2023.02.23-22.26.29:223][610]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2023.02.23-22.26.29:355][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.23-22.26.29:529][610]LogSavePackage: Moving output files for package: /Game/GameMode/Enemies/Chase_Enemy/BP_AIController
+[2023.02.23-22.26.29:531][610]LogSavePackage: Moving '../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Saved/BP_AIController4BE821DB4D563548F0422BAE260DCB89.tmp' to '../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Content/GameMode/Enemies/Chase_Enemy/BP_AIController.uasset'
+[2023.02.23-22.26.29:544][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 40.7 sec)
+[2023.02.23-22.26.29:565][610]AssetCheck: New page: Asset Save: BP_AIController
+[2023.02.23-22.26.29:566][610]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/GameMode/Enemies/Chase_Enemy/BP_AIController.BP_AIController
+[2023.02.23-22.26.32:614][785]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.23-22.26.32:650][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.23-22.26.32:650][785]PIE: New page: PIE session: Training (23 Feb 2023, 22:26:32)
+[2023.02.23-22.26.32:650][785]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Training
+[2023.02.23-22.26.32:659][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009140s)
+[2023.02.23-22.26.32:659][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Training.Training to /Game/UEDPIE_0_Training.Training (0.009184s)
+[2023.02.23-22.26.32:660][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.23-22.26.32:660][785]LogAIModule: Creating AISystem for world Training
+[2023.02.23-22.26.32:660][785]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2023.02.23-22.26.32:786][785]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2023.02.23-22.26.32:794][785]LogAudio: Display: Creating Audio Device:                 Id: 150, Scope: Unique, Realtime: True
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.23-22.26.32:794][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.23-22.26.32:794][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.23-22.26.32:795][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.23-22.26.32:795][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.23-22.26.32:795][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.23-22.26.32:797][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.23-22.26.32:831][785]LogAudioMixer: Display: Using Audio Hardware Device HP ENVY 24 (NVIDIA High Definition Audio)
+[2023.02.23-22.26.32:831][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.23-22.26.32:831][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.23-22.26.32:832][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.23-22.26.32:833][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=150
+[2023.02.23-22.26.32:833][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=150
+[2023.02.23-22.26.32:835][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=150
+[2023.02.23-22.26.32:835][785]LogInit: FAudioDevice initialized.
+[2023.02.23-22.26.32:835][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=150
+[2023.02.23-22.26.32:835][785]LogAudio: Display: Audio Device (ID: 150) registered with world 'Training'.
+[2023.02.23-22.26.32:842][785]LogLoad: Game class is 'GameMode_UFO_C'
+[2023.02.23-22.26.32:845][785]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.23-22.26.32:845][785]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.23-22.26.32:846][785]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with YellowTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.23-22.26.32:846][785]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.23-22.26.32:847][785]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.23-22.26.32:847][785]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with RedTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.23-22.26.32:848][785]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.23-22.26.32:848][785]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.23-22.26.32:848][785]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BlueTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.23-22.26.32:848][785]LogWorld: Bringing World /Game/UEDPIE_0_Training.Training up for play (max tick rate 0) at 2023.02.23-22.26.32
+[2023.02.23-22.26.32:850][785]LogWorld: Bringing up level for play took: 0.007713
+[2023.02.23-22.26.32:853][785]LogOnline: OSS: Created online subsystem instance for: :Context_277
+[2023.02.23-22.26.32:854][785]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.23-22.26.32:854][785]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.23-22.26.32:865][785]PIE: Server logged in
+[2023.02.23-22.26.32:866][785]PIE: Play in editor total start time 0.22 seconds.
+[2023.02.23-22.26.35:698][830]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.23-22.26.42:658][ 36]Cmd: ToggleDebugCamera
+[2023.02.23-22.26.59:707][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.23-22.27.37:274][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.23-22.27.37:274][336]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Training
+[2023.02.23-22.27.37:275][336]LogWorld: UWorld::CleanupWorld for Training, bSessionEnded=true, bCleanupResources=true
+[2023.02.23-22.27.37:275][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.23-22.27.37:310][336]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.23-22.27.37:327][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.23-22.27.37:447][336]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.23-22.27.37:447][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=150
+[2023.02.23-22.27.37:449][336]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=150
+[2023.02.23-22.27.37:454][336]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.23-22.27.37:462][336]LogUObjectHash: Compacting FUObjectHashTables data took   4.20ms
+[2023.02.23-22.27.37:794][337]LogPlayLevel: Display: Destroying online subsystem :Context_277
+[2023.02.23-22.27.39:721][359]LogSlate: Window 'Message Log' being destroyed
+[2023.02.23-22.27.39:756][359]LogSlate: Window 'Message Log' being destroyed
+[2023.02.23-23.17.15:853][310]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.254 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-00.17.16:034][108]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.434 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-01.17.16:207][906]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.606 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-02.17.16:198][704]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.596 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-03.17.15:328][498]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:46.725 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-04.17.15:837][297]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.234 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-05.17.16:085][ 96]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.481 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-05.18.32:344][324]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2023.02.24-05.18.32:369][324]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20720
+[2023.02.24-05.18.32:705][325]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{1c3e3d81-025f-4f3e-b522-93d03e52c7f6}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=152.08
+[2023.02.24-05.18.32:705][325]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.24-05.18.32:711][325]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.24-05.18.46:476][355]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2023.02.24-06.13.03:703][355]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20720
+[2023.02.24-06.13.03:836][356]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=HP ENVY 24 (NVIDIA High Definition Audio), InstanceID=1
+[2023.02.24-06.13.04:358][357]LogHttp: Warning: 0000086236FF2300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E59D29E-4B50-2B51-5E32-EC8CB6A22C25%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=410a7f43470c589e3a7824b05dbc947d%7Cba5834c910064c3b872b3f93756db827%7Cc3aad634-3562-435c-af76-9c7e6cd78203&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2023.02.24-06.13.04:358][357]LogHttp: Warning: 0000086236FF2300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: 0000086236FF2300: libcurl info message cache 0 (Too old connection (3263 seconds idle), disconnect it)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: 0000086236FF2300: libcurl info message cache 1 (Connection 2 seems to be dead)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: 0000086236FF2300: libcurl info message cache 2 (Closing connection 2)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: 0000086236FF2300: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: 0000086236FF2300: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: 0000086236FF2300: libcurl info message cache 5 (Closing connection 3)
+[2023.02.24-06.13.04:359][357]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E59D29E-4B50-2B51-5E32-EC8CB6A22C25%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=410a7f43470c589e3a7824b05dbc947d%7Cba5834c910064c3b872b3f93756db827%7Cc3aad634-3562-435c-af76-9c7e6cd78203&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.02.24-06.13.05:392][359]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{1c3e3d81-025f-4f3e-b522-93d03e52c7f6}, Name=Speakers (High Definition Audio Device)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1328.33
+[2023.02.24-06.13.05:392][359]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.24-06.13.05:394][359]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.24-06.13.05:744][360]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20720
+[2023.02.24-06.13.06:417][362]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{4757a82e-516e-4977-85ae-6e69623a51c1}, Name=HP ENVY 24 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=476.25
+[2023.02.24-06.13.06:418][362]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.24-06.13.06:467][362]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.24-06.14.00:937][526]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2023.02.24-06.14.01:219][526]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20720
+[2023.02.24-06.14.01:566][527]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{1c3e3d81-025f-4f3e-b522-93d03e52c7f6}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=24.52
+[2023.02.24-06.14.01:566][527]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.24-06.14.01:573][527]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.24-07.11.28:401][866]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.550 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-08.11.28:407][664]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.555 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-08.59.56:972][387]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=HP ENVY 24 (NVIDIA High Definition Audio), InstanceID=1
+[2023.02.24-08.59.56:996][387]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20720
+[2023.02.24-08.59.57:327][388]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{4757a82e-516e-4977-85ae-6e69623a51c1}, Name=HP ENVY 24 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=129.18
+[2023.02.24-08.59.57:327][388]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.24-08.59.57:332][388]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.02.24-09.01.38:143][284]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.24-09.01.38:183][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.24-09.01.38:184][284]PIE: New page: PIE session: Training (24 Feb 2023, 09:01:38)
+[2023.02.24-09.01.38:184][284]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Training
+[2023.02.24-09.01.38:195][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010371s)
+[2023.02.24-09.01.38:195][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Training.Training to /Game/UEDPIE_0_Training.Training (0.010423s)
+[2023.02.24-09.01.38:195][284]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.24-09.01.38:196][284]LogAIModule: Creating AISystem for world Training
+[2023.02.24-09.01.38:196][284]LogPlayLevel: PIE: World Init took: (0.001819s)
+[2023.02.24-09.01.38:332][284]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2023.02.24-09.01.38:341][284]LogAudio: Display: Creating Audio Device:                 Id: 151, Scope: Unique, Realtime: True
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.24-09.01.38:341][284]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.24-09.01.38:341][284]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.24-09.01.38:342][284]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.24-09.01.38:342][284]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.24-09.01.38:342][284]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.24-09.01.38:346][284]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.24-09.01.38:373][284]LogAudioMixer: Display: Using Audio Hardware Device HP ENVY 24 (NVIDIA High Definition Audio)
+[2023.02.24-09.01.38:374][284]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.24-09.01.38:374][284]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.24-09.01.38:374][284]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.24-09.01.38:375][284]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=151
+[2023.02.24-09.01.38:375][284]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=151
+[2023.02.24-09.01.38:377][284]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=151
+[2023.02.24-09.01.38:377][284]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=151
+[2023.02.24-09.01.38:378][284]LogInit: FAudioDevice initialized.
+[2023.02.24-09.01.38:378][284]LogAudio: Display: Audio Device (ID: 151) registered with world 'Training'.
+[2023.02.24-09.01.38:392][284]LogLoad: Game class is 'GameMode_UFO_C'
+[2023.02.24-09.01.38:395][284]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.01.38:395][284]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.01.38:396][284]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with YellowTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.01.38:397][284]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.01.38:397][284]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.01.38:397][284]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with RedTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.01.38:398][284]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.01.38:398][284]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.01.38:399][284]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BlueTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.01.38:399][284]LogWorld: Bringing World /Game/UEDPIE_0_Training.Training up for play (max tick rate 0) at 2023.02.24-09.01.38
+[2023.02.24-09.01.38:400][284]LogWorld: Bringing up level for play took: 0.008229
+[2023.02.24-09.01.38:404][284]LogOnline: OSS: Created online subsystem instance for: :Context_278
+[2023.02.24-09.01.38:406][284]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.01.38:406][284]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.01.38:416][284]PIE: Server logged in
+[2023.02.24-09.01.38:417][284]PIE: Play in editor total start time 0.239 seconds.
+[2023.02.24-09.01.40:797][342]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.01.40:797][342]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.01.40:797][342]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.01.41:831][380]Cmd: MainFrame.ToggleFullscreen
+[2023.02.24-09.01.42:004][380]LogViewport: Scene viewport resized to 1528x595, mode WindowedFullscreen.
+[2023.02.24-09.01.43:903][453]Cmd: MainFrame.ToggleFullscreen
+[2023.02.24-09.01.44:108][453]LogViewport: Scene viewport resized to 1533x573, mode Windowed.
+[2023.02.24-09.01.46:737][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-09.01.46:737][553]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Training
+[2023.02.24-09.01.46:738][553]LogWorld: UWorld::CleanupWorld for Training, bSessionEnded=true, bCleanupResources=true
+[2023.02.24-09.01.46:739][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-09.01.46:775][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.24-09.01.46:791][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-09.01.46:912][553]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.24-09.01.46:912][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=151
+[2023.02.24-09.01.46:914][553]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=151
+[2023.02.24-09.01.46:921][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-09.01.46:928][553]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2023.02.24-09.01.47:150][554]LogPlayLevel: Display: Destroying online subsystem :Context_278
+[2023.02.24-09.01.55:729][847]LogViewport: Scene viewport resized to 1533x577, mode Windowed.
+[2023.02.24-09.01.55:839][849]LogViewport: Scene viewport resized to 1533x684, mode Windowed.
+[2023.02.24-09.01.55:933][851]LogViewport: Scene viewport resized to 1533x714, mode Windowed.
+[2023.02.24-09.01.56:014][853]LogViewport: Scene viewport resized to 1533x723, mode Windowed.
+[2023.02.24-09.01.56:100][855]LogViewport: Scene viewport resized to 1533x750, mode Windowed.
+[2023.02.24-09.01.56:182][857]LogViewport: Scene viewport resized to 1533x762, mode Windowed.
+[2023.02.24-09.01.56:308][861]LogViewport: Scene viewport resized to 1533x764, mode Windowed.
+[2023.02.24-09.01.56:368][861]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.02.24-09.01.56:402][863]LogViewport: Scene viewport resized to 1533x768, mode Windowed.
+[2023.02.24-09.01.56:480][865]LogViewport: Scene viewport resized to 1533x774, mode Windowed.
+[2023.02.24-09.01.56:561][867]LogViewport: Scene viewport resized to 1533x782, mode Windowed.
+[2023.02.24-09.01.56:645][868]LogViewport: Scene viewport resized to 1533x784, mode Windowed.
+[2023.02.24-09.01.57:075][884]LogViewport: Scene viewport resized to 1533x783, mode Windowed.
+[2023.02.24-09.01.57:184][886]LogViewport: Scene viewport resized to 1533x776, mode Windowed.
+[2023.02.24-09.01.57:264][888]LogViewport: Scene viewport resized to 1533x774, mode Windowed.
+[2023.02.24-09.02.38:505][261]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.24-09.02.38:548][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.24-09.02.38:548][261]PIE: New page: PIE session: Training (24 Feb 2023, 09:02:38)
+[2023.02.24-09.02.38:548][261]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Training
+[2023.02.24-09.02.38:561][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013027s)
+[2023.02.24-09.02.38:561][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Training.Training to /Game/UEDPIE_0_Training.Training (0.013070s)
+[2023.02.24-09.02.38:561][261]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.24-09.02.38:562][261]LogAIModule: Creating AISystem for world Training
+[2023.02.24-09.02.38:562][261]LogPlayLevel: PIE: World Init took: (0.001141s)
+[2023.02.24-09.02.38:687][261]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2023.02.24-09.02.38:692][261]LogAudio: Display: Creating Audio Device:                 Id: 152, Scope: Unique, Realtime: True
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.24-09.02.38:692][261]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.24-09.02.38:692][261]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.24-09.02.38:692][261]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.24-09.02.38:692][261]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.24-09.02.38:692][261]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.24-09.02.38:695][261]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.24-09.02.38:726][261]LogAudioMixer: Display: Using Audio Hardware Device HP ENVY 24 (NVIDIA High Definition Audio)
+[2023.02.24-09.02.38:726][261]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.24-09.02.38:726][261]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.24-09.02.38:726][261]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.24-09.02.38:728][261]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=152
+[2023.02.24-09.02.38:728][261]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=152
+[2023.02.24-09.02.38:730][261]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=152
+[2023.02.24-09.02.38:730][261]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=152
+[2023.02.24-09.02.38:730][261]LogInit: FAudioDevice initialized.
+[2023.02.24-09.02.38:730][261]LogAudio: Display: Audio Device (ID: 152) registered with world 'Training'.
+[2023.02.24-09.02.38:734][261]LogLoad: Game class is 'GameMode_UFO_C'
+[2023.02.24-09.02.38:737][261]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.02.38:737][261]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.02.38:738][261]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with YellowTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.02.38:739][261]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.02.38:739][261]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.02.38:740][261]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with RedTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.02.38:740][261]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.02.38:740][261]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.02.38:741][261]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BlueTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.02.38:741][261]LogWorld: Bringing World /Game/UEDPIE_0_Training.Training up for play (max tick rate 0) at 2023.02.24-09.02.38
+[2023.02.24-09.02.38:743][261]LogWorld: Bringing up level for play took: 0.008635
+[2023.02.24-09.02.38:746][261]LogOnline: OSS: Created online subsystem instance for: :Context_279
+[2023.02.24-09.02.38:747][261]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.02.38:747][261]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.02.38:758][261]PIE: Server logged in
+[2023.02.24-09.02.38:759][261]PIE: Play in editor total start time 0.216 seconds.
+[2023.02.24-09.02.41:892][309]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.02.41:892][309]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.02.41:892][309]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.02.41:892][309]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.02.46:894][324]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.02.49:583][401]LogBlueprintUserMessages: [Player_UFO_C_0] 95.0
+[2023.02.24-09.02.53:207][516]LogBlueprintUserMessages: [Player_UFO_C_0] 90.0
+[2023.02.24-09.02.54:298][552]LogBlueprintUserMessages: [Player_UFO_C_0] 85.0
+[2023.02.24-09.02.54:774][567]LogBlueprintUserMessages: [Player_UFO_C_0] 80.0
+[2023.02.24-09.02.55:282][583]LogBlueprintUserMessages: [Player_UFO_C_0] 75.0
+[2023.02.24-09.02.57:446][652]LogBlueprintUserMessages: [Player_UFO_C_0] 70.0
+[2023.02.24-09.02.57:920][667]LogBlueprintUserMessages: [Player_UFO_C_0] 65.0
+[2023.02.24-09.02.58:532][686]LogBlueprintUserMessages: [Player_UFO_C_0] 60.0
+[2023.02.24-09.02.59:546][718]LogBlueprintUserMessages: [Player_UFO_C_0] 55.0
+[2023.02.24-09.02.59:984][732]LogBlueprintUserMessages: [Player_UFO_C_0] 50.0
+[2023.02.24-09.03.01:482][779]LogBlueprintUserMessages: [Player_UFO_C_0] 45.0
+[2023.02.24-09.03.03:005][828]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.03:474][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.03:969][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.04:533][876]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.04:981][890]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.05:565][909]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.06:080][926]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.07:341][967]LogBlueprintUserMessages: [Player_UFO_C_0] 40.0
+[2023.02.24-09.03.09:429][ 35]LogBlueprintUserMessages: [Player_UFO_C_0] 35.0
+[2023.02.24-09.03.09:886][ 50]LogBlueprintUserMessages: [Player_UFO_C_0] 30.0
+[2023.02.24-09.03.14:918][213]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.02.24-09.03.15:010][216]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.02.24-09.03.17:136][283]LogBlueprintUserMessages: [Player_UFO_C_0] 25.0
+[2023.02.24-09.03.17:599][298]LogBlueprintUserMessages: [Player_UFO_C_0] 20.0
+[2023.02.24-09.03.18:041][312]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.18:657][332]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.19:089][346]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.19:632][364]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.20:202][383]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.20:717][400]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.21:260][418]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.03.22:494][459]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.22:494][459]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.22:825][470]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.22:826][470]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.22:973][475]LogBlueprintUserMessages: [Player_UFO_C_0] 15.0
+[2023.02.24-09.03.23:339][487]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.23:339][487]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.23:646][497]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.23:646][497]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.23:948][507]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.23:948][507]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.24:469][524]LogBlueprintUserMessages: [Player_UFO_C_0] 10.0
+[2023.02.24-09.03.25:515][558]LogBlueprintUserMessages: [Player_UFO_C_0] 5.0
+[2023.02.24-09.03.25:848][569]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.25:849][569]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.26:030][575]LogBlueprintUserMessages: [Player_UFO_C_0] 0.0
+[2023.02.24-09.03.26:302][584]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.26:302][584]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.26:514][591]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.26:515][591]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.26:783][600]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.26:783][600]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.27:053][609]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.27:053][609]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.27:502][624]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.27:502][624]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.27:986][640]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.27:986][640]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.28:978][673]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.28:978][673]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.29:211][681]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.29:211][681]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.29:832][702]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.29:832][702]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.30:108][711]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.30:108][711]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.32:472][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.33:580][829]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.36:167][915]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.03.36:167][915]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.03.36:343][921]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.36:770][935]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.37:860][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.38:338][987]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.39:276][ 18]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.41:846][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.44:511][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.44:512][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.45:845][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.46:513][ 57]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Node:  Clear Value Graph:  EventGraph Function:  Execute Ubergraph Player UFO Blueprint:  Player_UFO
+[2023.02.24-09.03.50:569][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-09.03.50:569][ 70]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Training
+[2023.02.24-09.03.50:569][ 70]LogWorld: UWorld::CleanupWorld for Training, bSessionEnded=true, bCleanupResources=true
+[2023.02.24-09.03.50:570][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-09.03.50:582][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.24-09.03.50:606][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-09.03.50:732][ 70]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.24-09.03.50:733][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=152
+[2023.02.24-09.03.50:735][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=152
+[2023.02.24-09.03.50:740][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-09.03.50:748][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2023.02.24-09.03.51:078][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_279
+[2023.02.24-09.03.53:947][127]LogSlate: Window 'Message Log' being destroyed
+[2023.02.24-09.03.53:962][127]LogSlate: Window 'Message Log' being destroyed
+[2023.02.24-09.04.56:408][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2023.02.24-09.04.56:414][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Training" FILE="../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Saved/Autosaves/Game/Training_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2023.02.24-09.04.56:474][449]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Training_Auto1
+[2023.02.24-09.04.56:476][449]LogSavePackage: Moving '../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Saved/Training_Auto179D7A1134C86B4115290B59306FDFB8E.tmp' to '../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Saved/Autosaves/Game/Training_Auto1.umap'
+[2023.02.24-09.04.56:501][449]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Training' took 0.214
+[2023.02.24-09.04.56:501][449]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.214
+[2023.02.24-09.06.30:273][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.24-09.06.30:309][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.24-09.06.30:309][731]PIE: New page: PIE session: Training (24 Feb 2023, 09:06:30)
+[2023.02.24-09.06.30:309][731]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Training
+[2023.02.24-09.06.30:317][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007973s)
+[2023.02.24-09.06.30:317][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Training.Training to /Game/UEDPIE_0_Training.Training (0.008016s)
+[2023.02.24-09.06.30:317][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.02.24-09.06.30:318][731]LogAIModule: Creating AISystem for world Training
+[2023.02.24-09.06.30:318][731]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2023.02.24-09.06.30:436][731]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2023.02.24-09.06.30:439][731]LogAudio: Display: Creating Audio Device:                 Id: 153, Scope: Unique, Realtime: True
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.24-09.06.30:439][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.24-09.06.30:439][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.24-09.06.30:440][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.24-09.06.30:440][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.24-09.06.30:440][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.24-09.06.30:443][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.24-09.06.30:471][731]LogAudioMixer: Display: Using Audio Hardware Device HP ENVY 24 (NVIDIA High Definition Audio)
+[2023.02.24-09.06.30:471][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.24-09.06.30:471][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.24-09.06.30:471][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.24-09.06.30:472][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=153
+[2023.02.24-09.06.30:472][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=153
+[2023.02.24-09.06.30:475][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=153
+[2023.02.24-09.06.30:475][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=153
+[2023.02.24-09.06.30:475][731]LogInit: FAudioDevice initialized.
+[2023.02.24-09.06.30:475][731]LogAudio: Display: Audio Device (ID: 153) registered with world 'Training'.
+[2023.02.24-09.06.30:480][731]LogLoad: Game class is 'GameMode_UFO_C'
+[2023.02.24-09.06.30:483][731]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.06.30:483][731]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.06.30:484][731]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with YellowTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.06.30:484][731]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.06.30:485][731]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.06.30:485][731]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with RedTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.06.30:486][731]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.06.30:486][731]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.06.30:486][731]LogAIPerception: Warning: UAIPerceptionComponent::OnRegister: Perception Component is being registered with BlueTeam_C_1, they are designed to work with AAIControllers!
+[2023.02.24-09.06.30:487][731]LogWorld: Bringing World /Game/UEDPIE_0_Training.Training up for play (max tick rate 0) at 2023.02.24-09.06.30
+[2023.02.24-09.06.30:488][731]LogWorld: Bringing up level for play took: 0.007342
+[2023.02.24-09.06.30:491][731]LogOnline: OSS: Created online subsystem instance for: :Context_280
+[2023.02.24-09.06.30:493][731]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2023.02.24-09.06.30:493][731]LogScript: Warning: Last function called:
+	/Game/ParagonWraith/Characters/Heroes/Wraith/BattleMode_BP.BattleMode_BP_C.ExecuteUbergraph_BattleMode_BP
+
+[2023.02.24-09.06.30:502][731]PIE: Server logged in
+[2023.02.24-09.06.30:503][731]PIE: Play in editor total start time 0.2 seconds.
+[2023.02.24-09.06.34:009][737]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.06.34:009][737]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.06.34:010][737]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.06.34:010][737]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonWraith/Characters/Heroes/Wraith/Animations/LevelStart_Montage.LevelStart_Montage'
+[2023.02.24-09.06.37:342][747]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.06.45:031][990]Cmd: ToggleDebugCamera
+[2023.02.24-09.07.22:063][262]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.07.22:564][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.07.23:017][296]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.07.23:540][314]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.07.24:092][333]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.07.24:509][348]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetFocusActor_ReturnValue". Node:  Sphere Trace By Channel Graph:  EventGraph Function:  Execute Ubergraph Shooting Service Blueprint:  Shooting_Service
+[2023.02.24-09.07.28:747][497]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  SeeEnemy Function:  See Enemy Blueprint:  BP_AIController
+[2023.02.24-09.07.28:747][497]PIE: Error: Blueprint Runtime Error: "Attempted to access YellowTeam_C_1 via property Controlled Pawn, but YellowTeam_C_1 is not valid (pending kill or garbage)". Node:  Branch Graph:  RecieveDamage Function:  Recieve Damage Blueprint:  BP_AIController
+[2023.02.24-09.07.36:854][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-09.07.36:854][776]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Training
+[2023.02.24-09.07.36:854][776]LogWorld: UWorld::CleanupWorld for Training, bSessionEnded=true, bCleanupResources=true
+[2023.02.24-09.07.36:855][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-09.07.36:871][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.24-09.07.36:894][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.24-09.07.37:022][776]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.24-09.07.37:023][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=153
+[2023.02.24-09.07.37:025][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=153
+[2023.02.24-09.07.37:032][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.24-09.07.37:040][776]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2023.02.24-09.07.37:348][777]LogPlayLevel: Display: Destroying online subsystem :Context_280
+[2023.02.24-09.07.45:819][803]LogSlate: Window 'Message Log' being destroyed
+[2023.02.24-09.07.45:853][803]LogSlate: Window 'Message Log' being destroyed
+[2023.02.24-09.11.27:554][603]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:46.702 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-10.11.28:140][401]LogDerivedDataCache: C:/Users/sean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:47.287 and deleted 0 files with total size 0 MiB. Scanned 24332 files in 23462 folders with total size 1018 MiB.
+[2023.02.24-11.00.20:080][435]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2023.02.24-11.00.20:089][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.24-11.00.20:146][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Training" FILE="../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Content/Training.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.02.24-11.00.20:272][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.02.24-11.00.20:332][435]LogSavePackage: Moving output files for package: /Game/Training
+[2023.02.24-11.00.20:334][435]LogSavePackage: Moving '../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Saved/TrainingFE52928A452B0F8A3ED0AAA70E812318.tmp' to '../../../../../../Users/sean/Documents/GitHub/AI-TeamDeathMatch/Content/Training.umap'
+[2023.02.24-11.00.20:413][435]LogFileHelpers: Saving map 'Training' took 0.268
+[2023.02.24-11.00.20:423][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 333 ms (total: 41.0 sec)
+[2023.02.24-11.00.20:445][435]AssetCheck: New page: Asset Save: Training
+[2023.02.24-11.00.20:445][435]LogContentValidation: Display: Validating /Script/Engine.World /Game/Training.Training
